@@ -72,3 +72,4 @@ command | description
 diff    | detects differences between 2 files or file versions
 find    | find files and folders matching specified criteria
 grep    | allows searching file content or command output
+du      | calculates size default for current directory
