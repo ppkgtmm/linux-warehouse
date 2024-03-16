@@ -69,7 +69,29 @@ $((...))   | allows substituting arithmetic result
 
 command | description
 :------ | :---------------------------------------------------
+:------ | :----------------------------------------------------------------------------------
 diff    | detects differences between 2 files or file versions
 find    | find files and folders matching specified criteria
 grep    | allows searching file content or command output
 du      | calculates size default for current directory
+df      | calculates disk usage of file systems
+history | display commands history where most recently run command is at bottom
+ps      | list current running user initiated processes
+top     | displays all running processes in real-time. useful for monitoring
+kill    | sends specified signal by default TERM to a process
+&       | useful in running long running commands as background job
+jobs    | lists background jobs or stopped processes created in current shell session
+bg      | resumes foreground job or stopped process in background
+fg      | brings background job to foreground or resumes stopped process in foreground
+gzip    | compresses files to reduce storage consumption
+gunzip  | uncompresses specified g-zip files
+tar     | useful in manipulating archive which contains multiple files packaged together
+nano    | opens a text file for editing. save changes with ctrl+O and quit with editor ctrl+X
+alias   | creates alias for long command in current shell session
+xargs   | passes output of previous command as inputs of next command
+ln      | allows creating links or shortcuts
+who     | displays users logged in to system
+su      | switches to specified user
+sudo    | provides elevated privileges to run critical but permitted commands
+passwd  | updates current user's password by default
+chown   | changes owner of file or directory
