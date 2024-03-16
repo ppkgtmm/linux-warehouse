@@ -98,7 +98,7 @@ chown   | changes owner of file or directory
 ### permissions
 
 - read : allows file to be read or directory content to be listed
-- write : allows file to be modified or directory content to be modified (also require execute permission for directory)
+- write : allows file to be modified or directory content to be modified (require execute permission for directory)
 - execute : allows file to be executed or directory to be entered with `cd`
 
 **permission scope**
