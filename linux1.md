@@ -9,11 +9,11 @@
 ## commands
 
 command | description
-------- | --------------------------------------------
+:------ | :-------------------------------------------
 whoami  | shows the currently logged-in user name
 man     | provides information or manual about command
+clear   | clears from terminal screen
 
-- **clear** : clears from terminal screen
 - **pwd** : prints current working directory
 - **ls** : lists contents of specified directory default to current directory
 - **cd** : changes working directory
