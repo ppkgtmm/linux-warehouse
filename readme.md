@@ -8,7 +8,7 @@
 
 ### commands
 
-- basic commands
+- basic commands : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/others.sh)
 
 command  | description
 :------- | :-----------------------------------------------------------------
@@ -20,7 +20,7 @@ echo     | displays arguments passed to it
 \|       | passes output of previous command as input of next command
 export   | allows setting environment variable through terminal
 
-- file system related
+- file system related : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/filesys.sh)
 
 command  | description
 :------- | :-----------------------------------------------------------------
@@ -34,7 +34,7 @@ cp       | copies file or directory
 mv       | moves or renames file or directory
 open     | opens files or directories using default program
 
-- file content related
+- file content related : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/content.sh)
 
 command  | description
 :------- | :-----------------------------------------------------------------
@@ -47,7 +47,7 @@ wc       | displays word, line and byte count of files
 sort     | merge and sort lines of files
 uniq     | displays unique lines of a file
 
-### wildcards
+- wildcard related : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/wildc.sh)
 
 symbol | description
 :----- | :----------------------------------------
@@ -56,7 +56,7 @@ symbol | description
 [...]  | matches any character within the brackets
 [^...] | matches any character NOT in the brackets
 
-### substitution
+- substitution related : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/subst.sh)
 
 symbol     | description
 :--------- | :--------------------------------------------
@@ -65,9 +65,7 @@ $(...)     | allows substituting command result
 $((...))   | allows substituting arithmetic result
 {...,...}  | expands pattern to multiple patterns
 
-### commands (continued)
-
-- file or directory content related
+- file & directory content related : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/filedir.sh)
 
 command | description
 :------ | :----------------------------------------------------------------------------------
@@ -80,7 +78,7 @@ tar     | useful in manipulating archive which contains multiple files packaged 
 nano    | opens a text file for editing. save changes with ctrl+O and quit with editor ctrl+X
 ln      | allows creating links or shortcuts
 
-- resource or process related
+- resource & process related : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/process.sh)
 
 command | description
 :------ | :----------------------------------------------------------------------------------
@@ -90,7 +88,7 @@ ps      | list current running user initiated processes
 top     | displays all running processes in real-time. useful for monitoring
 kill    | sends specified signal by default TERM to a process
 
-- foreground and background job related
+- foreground & background job related : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/fbjobs.sh)
 
 command | description
 :------ | :----------------------------------------------------------------------------------
@@ -99,7 +97,7 @@ jobs    | lists background jobs or stopped processes created in current shell se
 bg      | resumes foreground job or stopped process in background
 fg      | brings background job to foreground or resumes stopped process in foreground
 
-- user and permission related
+- user & permission related : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/uperm.sh)
 
 command | description
 :------ | :----------------------------------------------------------------------------------
@@ -110,23 +108,10 @@ passwd  | updates current user's password by default
 chown   | changes owner of file or directory
 chmod   | manages permission on file or directory
 
-- additional commands
+- additional commands : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/extras.sh)
 
 command | description
 :------ | :----------------------------------------------------------------------------------
 history | display commands history where most recently run command is at bottom
 alias   | creates alias for long command in current shell session
 xargs   | passes output of previous command as inputs of next command
-
-### example usage
-
-- [basic commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/others.sh)
-- [file system commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/filesys.sh)
-- [file content commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/content.sh)
-- [wildcard commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/wildc.sh)
-- [substitution commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/subst.sh)
-- [file & directory content commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/filedir.sh)
-- [resource & process commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/process.sh)
-- [foreground & background jobs commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/fbjobs.sh)
-- [user & permission commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/uperm.sh)
-- [additional commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/extras.sh)
