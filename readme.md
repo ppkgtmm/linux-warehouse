@@ -117,3 +117,16 @@ command | description
 history | display commands history where most recently run command is at bottom
 alias   | creates alias for long command in current shell session
 xargs   | passes output of previous command as inputs of next command
+
+### example usage
+
+- [basic](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/others.sh)
+- [file system](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/filesys.sh)
+- [file content](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/content.sh)
+- [wildcard](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/wildc.sh)
+- [substitution](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/subst.sh)
+- [content](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/filedir.sh)
+- [monitoring](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/process.sh)
+- [jobs](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/fbjobs.sh)
+- [permission](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/uperm.sh)
+- [extras](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/extras.sh)
