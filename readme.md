@@ -94,17 +94,16 @@ su      | switches to specified user
 sudo    | provides elevated privileges to run critical but permitted commands
 passwd  | updates current user's password by default
 chown   | changes owner of file or directory
+chmod   | manages permission on file or directory
 
 ### permissions
 
 - read : allows file to be read or directory content to be listed
 - write : allows file to be modified or directory content to be modified (require execute permission for directory)
-- execute : allows file to be executed or directory to be entered with `cd`
+- execute : allows file to be executed or directory to be entered with `cd`
 
 **permission scope**
+
 - owner : refers to owner of file or directory
 - group : refers to group that owns file or directory
 - everyone : refers to everyone else
-
-**chmod** <br>
-manages permission on file or directory
