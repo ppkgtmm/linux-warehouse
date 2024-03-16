@@ -8,6 +8,18 @@
 
 ### commands
 
+- basic commands
+
+command  | description
+:------- | :-----------------------------------------------------------------
+whoami   | shows the currently logged-in user name
+man      | provides information or manual about command
+clear    | clears from terminal screen
+date     | prints current date and time
+echo     | displays arguments passed to it
+\|       | passes output of previous command as input of next command
+export   | allows setting environment variable through terminal
+
 - file system related
 
 command  | description
@@ -34,19 +46,6 @@ less     | displays contents of a file one page at a time
 wc       | displays word, line and byte count of files
 sort     | merge and sort lines of files
 uniq     | displays unique lines of a file
-
-
-- other commands
-
-command  | description
-:------- | :-----------------------------------------------------------------
-whoami   | shows the currently logged-in user name
-man      | provides information or manual about command
-clear    | clears from terminal screen
-date     | prints current date and time
-echo     | displays arguments passed to it
-\|       | passes output of previous command as input of next command
-export   | allows setting environment variable through terminal
 
 ### wildcards
 
