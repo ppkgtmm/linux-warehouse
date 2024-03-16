@@ -120,8 +120,8 @@ xargs   | passes output of previous command as inputs of next command
 
 ### example usage
 
-- [basic](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/others.sh)
-- [file system](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/filesys.sh)
+- [basic-commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/others.sh)
+- [file-system-related-commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/filesys.sh)
 - [file content](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/content.sh)
 - [wildcard](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/wildc.sh)
 - [substitution](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/subst.sh)
