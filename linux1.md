@@ -30,7 +30,7 @@ less     | displays contents of a file one page at a time
 echo     | displays arguments passed to it
 \> and \>\> | redirects standard output to a file
 wc       | displays word, line and byte count of files
-\        | passes output of previous command as input of next command
+\|        | passes output of previous command as input of next command
 sort     | merge and sort lines of files
 uniq     | displays unique lines of a file
 export   | allows setting environment variable through terminal
