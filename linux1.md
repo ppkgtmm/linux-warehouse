@@ -46,7 +46,9 @@ symbol | description
 
 ### substitution
 
-- tilde or _`~`_ : refers to home directory path of current user.
-- _`$(...)`_ : allows substituting command result
-- _`$((...))`_ : allows substituting arithmetic result
-- _`{...,...}`_ : expands pattern to multiple patterns
+symbol     | description
+:--------- | :---------------------------------------------
+tilde or ~ | refers to home directory path of current user.
+$(...)     | allows substituting command result
+$((...))   | allows substituting arithmetic result
+{...,...}  | expands pattern to multiple patterns
