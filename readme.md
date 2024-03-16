@@ -102,11 +102,9 @@ chown   | changes owner of file or directory
 - execute : allows file to be executed or directory to be entered with `cd`
 
 **permission scope**
-
 - owner : refers to owner of file or directory
 - group : refers to group that owns file or directory
 - everyone : refers to everyone else
 
 **chmod**
-
 manages permission on file or directory
