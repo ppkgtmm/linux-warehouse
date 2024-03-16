@@ -106,5 +106,5 @@ chown   | changes owner of file or directory
 - group : refers to group that owns file or directory
 - everyone : refers to everyone else
 
-**chmod**
+**chmod** <br>
 manages permission on file or directory
