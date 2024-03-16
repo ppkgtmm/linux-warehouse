@@ -65,7 +65,7 @@ $(...)     | allows substituting command result
 $((...))   | allows substituting arithmetic result
 {...,...}  | expands pattern to multiple patterns
 
-## commands (continued)
+### commands (continued)
 
 command | description
 :------ | :---------------------------------------------------
