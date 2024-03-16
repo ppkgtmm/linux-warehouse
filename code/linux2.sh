@@ -91,6 +91,16 @@ sudo chown -R username /path/to/directory # recursively transfer ownership of di
 sudo chown username /path/to/file # transfer ownership of file to specified user
 sudo chown :group_name /path/to/file # transfer group ownership of file to specified group
 
+
+# permissions
+# - read : allows file to be read or directory content to be listed
+# - write : allows file to be modified or directory content to be modified (require execute permission for directory)
+# - execute : allows file to be executed or directory to be entered with `cd`
+
+# permission scope
+# - owner : refers to owner of file or directory
+# - group : refers to group that owns file or directory
+# - everyone : refers to everyone else
 chmod a+rw file_name ... # add read and write permission on specified files for everyone i.e. owner, group and others
 chmod -R o-x /path/to/directory ... # revoke execute permission on specified directories' content from others
 chmod g=r /path/to/file ... # set only read permission on specified files for group members
