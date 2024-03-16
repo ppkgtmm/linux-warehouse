@@ -8,11 +8,10 @@
 
 ### commands
 
+- file system or file content related
+
 command  | description
 :------- | :-----------------------------------------------------------------
-whoami   | shows the currently logged-in user name
-man      | provides information or manual about command
-clear    | clears from terminal screen
 pwd      | prints current working directory
 ls       | lists contents of specified directory default to current directory
 cd       | changes working directory
@@ -24,15 +23,23 @@ mv       | moves or renames file or directory
 open     | opens files or directories using default program
 head     | displays first few lines of a file
 tail     | displays last new lines of a file
-date     | prints current date and time
 cat      | display concatenated content of files
 less     | displays contents of a file one page at a time
-echo     | displays arguments passed to it
 \> and \>\> | redirects standard output to a file
 wc       | displays word, line and byte count of files
-\|        | passes output of previous command as input of next command
+\|       | passes output of previous command as input of next command
 sort     | merge and sort lines of files
 uniq     | displays unique lines of a file
+
+- other commands
+
+command  | description
+:------- | :-----------------------------------------------------------------
+whoami   | shows the currently logged-in user name
+man      | provides information or manual about command
+clear    | clears from terminal screen
+date     | prints current date and time
+echo     | displays arguments passed to it
 export   | allows setting environment variable through terminal
 
 ### wildcards
