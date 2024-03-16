@@ -31,7 +31,7 @@
 - **|** : passes output of previous command as input of next command
 - **sort** : merge and sort lines of files
 - **uniq** : displays unique lines of a file
-- **export** : allows setting environment variable through terminal
+- *`export`* : allows setting environment variable through terminal
 
 ### wildcards
 
