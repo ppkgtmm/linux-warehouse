@@ -68,7 +68,6 @@ $((...))   | allows substituting arithmetic result
 ### commands (continued)
 
 command | description
-:------ | :---------------------------------------------------
 :------ | :----------------------------------------------------------------------------------
 diff    | detects differences between 2 files or file versions
 find    | find files and folders matching specified criteria
