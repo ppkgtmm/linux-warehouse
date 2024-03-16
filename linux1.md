@@ -9,18 +9,18 @@
 ## commands
 
 command | description
-:------ | :-------------------------------------------
+:------ | :-----------------------------------------------------------------
 whoami  | shows the currently logged-in user name
 man     | provides information or manual about command
 clear   | clears from terminal screen
+pwd     | prints current working directory
+ls      | lists contents of specified directory default to current directory
+cd      | changes working directory
+mkdir   | create directories
+touch   | creates empty files
+rm      | removes files or directories
+cp      | copies file or directory
 
-- **pwd** : prints current working directory
-- **ls** : lists contents of specified directory default to current directory
-- **cd** : changes working directory
-- **mkdir** : create directories
-- **touch** : creates empty files
-- **rm** : removes files or directories
-- **cp** : copies file or directory
 - **mv** : moves or renames file or directory
 - **open** : opens files or directories using default program
 - **head** : displays first few lines of a file
