@@ -42,7 +42,7 @@
 
 ### substitution
 
-- tilde or **~** : refers to home directory path of current user.
+- *tilde* or *`~`* : refers to home directory path of current user.
 - *`$(...)`* : allows substituting command result
 - *`$((...))`* : allows substituting arithmetic result 
 - *`{...,...}`* : expands pattern to multiple patterns
