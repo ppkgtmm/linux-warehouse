@@ -38,6 +38,12 @@ export   | allows setting environment variable through terminal
 ### wildcards
 
 *| refers to zero or more characters ?| refers to single character in path name [...]| matches any character within the brackets [^...]| matches any character NOT in the brackets
+symbol | description
+:----- | :----------------------------------------
+\*      | refers to zero or more characters
+?      | refers to single character in path name
+[...]  | matches any character within the brackets
+[^...] | matches any character NOT in the brackets
 
 ### substitution
 
