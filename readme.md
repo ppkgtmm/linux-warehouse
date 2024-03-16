@@ -120,13 +120,13 @@ xargs   | passes output of previous command as inputs of next command
 
 ### example usage
 
-- [basic-commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/others.sh)
-- [file-system-related-commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/filesys.sh)
-- [file-content-related-commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/content.sh)
-- [wildcard-related-commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/wildc.sh)
-- [substitution-related-commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/subst.sh)
-- [file-directory-content-related-commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/filedir.sh)
-- [resource-process-related-commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/process.sh)
-- [foreground-background-jobs-related-commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/fbjobs.sh)
-- [user-permission-related-commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/uperm.sh)
-- [extra-commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/extras.sh)
+- [basic commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/others.sh)
+- [file system commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/filesys.sh)
+- [file content commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/content.sh)
+- [wildcard commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/wildc.sh)
+- [substitution commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/subst.sh)
+- [file & directory content commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/filedir.sh)
+- [resource & process commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/process.sh)
+- [foreground & background jobs commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/fbjobs.sh)
+- [user & permission commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/uperm.sh)
+- [additional commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/extras.sh)
