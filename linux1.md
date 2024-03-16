@@ -8,7 +8,7 @@
 
 ### commands
 
-- file system or file content related
+- file system related
 
 command  | description
 :------- | :-----------------------------------------------------------------
@@ -21,15 +21,20 @@ rm       | removes files or directories
 cp       | copies file or directory
 mv       | moves or renames file or directory
 open     | opens files or directories using default program
+
+- file content related
+
+command  | description
+:------- | :-----------------------------------------------------------------
 head     | displays first few lines of a file
 tail     | displays last new lines of a file
 cat      | display concatenated content of files
 less     | displays contents of a file one page at a time
 \> and \>\> | redirects standard output to a file
 wc       | displays word, line and byte count of files
-\|       | passes output of previous command as input of next command
 sort     | merge and sort lines of files
 uniq     | displays unique lines of a file
+
 
 - other commands
 
@@ -40,6 +45,7 @@ man      | provides information or manual about command
 clear    | clears from terminal screen
 date     | prints current date and time
 echo     | displays arguments passed to it
+\|       | passes output of previous command as input of next command
 export   | allows setting environment variable through terminal
 
 ### wildcards
