@@ -1,4 +1,4 @@
-# 🐥 Linux Part 1
+# 🐥 Linux Warehouse
 
 ### shell scripting
 
