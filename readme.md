@@ -1,5 +1,7 @@
 # 🐥 Linux Warehouse
 
+my knowledge base of linux commands learned from this youtube [video](https://www.youtube.com/watch?v=ZtqBQ68cfJc)
+
 ### shell scripting
 
 - shell refers to interface between users and operating system (OS)
