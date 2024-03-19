@@ -2,15 +2,15 @@
 
 my knowledge base of linux commands learned from this youtube [video](https://www.youtube.com/watch?v=ZtqBQ68cfJc)
 
-### shell scripting
+## shell scripting
 
-- shell refers to interface between users and operating system (OS)
+- shell refers to interface between users and operating system (os)
 - operating system is a software that manages hardwares and provide services to other softwares
-- shell scripting refers to writing script or file with sequence of commands to automate process in Linux OS
+- shell scripting refers to writing script or file with sequence of commands to automate process in linux os
 
-### commands
+## commands
 
-- basic commands : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/others.sh)
+- [basic commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/others.sh)
 
 command  | description
 :------- | :-----------------------------------------------------------------
@@ -22,7 +22,7 @@ echo     | displays arguments passed to it
 \|       | passes output of previous command as input of next command
 export   | allows setting environment variable through terminal
 
-- file system related : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/filesys.sh)
+- [file system](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/filesys.sh)
 
 command  | description
 :------- | :-----------------------------------------------------------------
@@ -36,7 +36,7 @@ cp       | copies file or directory
 mv       | moves or renames file or directory
 open     | opens files or directories using default program
 
-- file content related : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/content.sh)
+- [file content](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/content.sh)
 
 command  | description
 :------- | :-----------------------------------------------------------------
@@ -49,7 +49,7 @@ wc       | displays word, line and byte count of files
 sort     | merge and sort lines of files
 uniq     | displays unique lines of a file
 
-- wildcard related : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/wildc.sh)
+- [wildcards](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/wildc.sh)
 
 symbol | description
 :----- | :----------------------------------------
@@ -58,7 +58,7 @@ symbol | description
 [...]  | matches any character within the brackets
 [^...] | matches any character NOT in the brackets
 
-- substitution related : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/subst.sh)
+- [substitution](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/subst.sh)
 
 symbol     | description
 :--------- | :--------------------------------------------
@@ -67,7 +67,7 @@ $(...)     | allows substituting command result
 $((...))   | allows substituting arithmetic result
 {...,...}  | expands pattern to multiple patterns
 
-- file & directory content related : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/filedir.sh)
+- [file + directory content](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/filedir.sh)
 
 command | description
 :------ | :----------------------------------------------------------------------------------
@@ -80,7 +80,7 @@ tar     | useful in manipulating archive which contains multiple files packaged 
 nano    | opens a text file for editing. save changes with ctrl+O and quit with editor ctrl+X
 ln      | allows creating links or shortcuts
 
-- resource & process related : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/process.sh)
+- [resource and process](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/process.sh)
 
 command | description
 :------ | :----------------------------------------------------------------------------------
@@ -90,7 +90,7 @@ ps      | list current running user initiated processes
 top     | displays all running processes in real-time. useful for monitoring
 kill    | sends specified signal by default TERM to a process
 
-- foreground & background job related : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/fbjobs.sh)
+- [foreground + background job](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/fbjobs.sh)
 
 command | description
 :------ | :----------------------------------------------------------------------------------
@@ -99,7 +99,7 @@ jobs    | lists background jobs or stopped processes created in current shell se
 bg      | resumes foreground job or stopped process in background
 fg      | brings background job to foreground or resumes stopped process in foreground
 
-- user & permission related : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/uperm.sh)
+- [user and permission](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/uperm.sh)
 
 command | description
 :------ | :----------------------------------------------------------------------------------
@@ -110,7 +110,7 @@ passwd  | updates current user's password by default
 chown   | changes owner of file or directory
 chmod   | manages permission on file or directory
 
-- additional commands : [reference](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/extras.sh)
+- [additional commands](https://github.com/ppkgtmm/linux-warehouse/blob/main/code/extras.sh)
 
 command | description
 :------ | :----------------------------------------------------------------------------------
