@@ -1,6 +1,6 @@
 # 🐥 Linux Warehouse
 
-my knowledge base of linux commands learned from this youtube [video](https://www.youtube.com/watch?v=ZtqBQ68cfJc)
+my knowledge base of linux commands learned from youtube video
 
 ## shell scripting
 
